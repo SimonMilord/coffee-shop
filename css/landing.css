@@ -38,9 +38,9 @@ p {
   font-weight: 400;
   display: flex;
   justify-content: center;
-  min-width: 180px;
+  min-width: 11.25rem;
   max-width: 2%;
-  padding: 15px 20px;
+  padding: 0.94rem 1.25rem;
 }
 
 strong {
@@ -70,14 +70,14 @@ strong {
 }
 
 .hero-card__desc {
-  padding: 10px 0px 20px 0px;
+  padding: 0.625rem 0 1.25rem 0;
   max-width: 60%;
 }
 
 .hero-card__btn {
-  min-width: 180px;
+  min-width: 11.25rem;
   max-width: 2%;
-  padding: 15px 20px;
+  padding: 0.94rem 1.25rem;
 }
 
 .hero-img {
@@ -92,7 +92,7 @@ strong {
 /* OUR PRODUCTS SECTION */
 .our-products {
   background-color: #F7F7F7;
-  padding: 60px;
+  padding: 3.75rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -101,7 +101,7 @@ strong {
 
 h2.products-title {
   text-align: center;
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
 }
 
@@ -112,12 +112,12 @@ h2.products-title {
 }
 
 .product-card {
-  min-width: 330px;
-  max-width: 350px;
-  min-height: 440px;
-  max-height: 460px;
-  margin: 40px;
-  border-radius: 10px;
+  min-width: 20.625rem;
+  max-width: 21.875rem;
+  min-height: 27.5rem;
+  max-height: 28.75rem;
+  margin: 2.5rem;
+  border-radius: 0.625rem;
   box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
   background-color: #FFF;
   display: flex;
@@ -129,8 +129,8 @@ h2.products-title {
 
 .product-card__img {
   display: flex;
-  min-height: 240px;
-  max-height: 550px;
+  min-height: 15rem;
+  max-height: 34.375rem;
   flex-wrap: wrap;
 }
 .product-card__info {
@@ -138,11 +138,11 @@ h2.products-title {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
   justify-content: space-between;
   align-items: center;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
 }
 
 .product-card__name {
@@ -168,17 +168,17 @@ h2.products-title {
 }
 
 #coldbrew {
-  max-height: 240px;
+  max-height: 15rem;
 }
 
 .view-all-btn {
   display: flex;
   justify-content: center;
   margin: auto;
-  min-width: 180px;
+  min-width: 11.25rem;
   max-width: 80%;
-  padding: 15px 20px;
-  margin-top: 40px;
+  padding: 0.94rem 1.25rem;
+  margin-top: 2.5rem;
 }
 .view-all-link {
   color: #FFF;
@@ -208,14 +208,14 @@ h2.products-title {
 }
 
 .misc__img {
-  min-width: 400px;
-  max-width: 500px;
+  min-width: 25rem;
+  max-width: 31.25rem;
   background-image: url(../assets/images/coldbrewbackground.png);
   background-position: center;
   background-size: contain;
   display: flex;
   justify-content: center;
-  padding: 60px;
+  padding: 3.75rem;
 }
 .misc__card__container {
   display: flex;
@@ -224,15 +224,15 @@ h2.products-title {
 }
 
 .misc__card__container img {
-  width: 50px;
+  width: 3.125rem;
 }
 
 .learn-more-btn {
   display: flex;
-  min-width: 180px;
+  min-width: 11.25rem;
   max-width: 50%;
-  padding: 15px;
-  margin-top: 40px;
+  padding: 0.94rem;
+  margin-top: 2.5rem;
   justify-content: center;
 }
 
@@ -253,7 +253,7 @@ h2.products-title {
   color: #FFF;
   text-align: center;
   margin: auto;
-  padding: 40px 70px;
+  padding: 2.5rem 4.375rem;
   display: flex;
 }
 
@@ -265,8 +265,8 @@ footer {
 }
 
 .social-icon {
-  min-width: 50px;
-  max-width: 120px;
+  min-width: 3.125rem;
+  max-width: 7.5rem;
 }
 
 .footer-card {
@@ -277,11 +277,11 @@ footer {
 }
 
 .footer-card__title {
-  margin: 20px 0px;
+  margin: 1.25rem 0;
 }
 
 .footer-card__info {
-  margin: 0px;
+  margin: 0;
   text-align: left;
 }
 
