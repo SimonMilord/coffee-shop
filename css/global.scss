@@ -1,0 +1,80 @@
+@use './variables' as *;
+
+* {
+  box-sizing: border-box;
+  /* border: 1px dashed black; */
+}
+
+body {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAV BAR */
+nav {
+  background-color: $nitro-pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.25rem;
+
+  .nav__left {
+    display: flex;
+    align-items: center;
+
+    #beans-logo {
+      min-width: 3.125rem;
+      max-width: 7.5rem;
+      display: flex;
+    }
+
+    .co-name-link {
+      text-decoration: none;
+
+      #co-name {
+        text-align: left;
+        display: flex;
+        font-size: 3.125rem;
+        margin: 0;
+        color: $graphite;
+      }
+    }
+  }
+  .nav-links {
+    font-size: 1.312rem;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    padding-left: 1.25rem;
+
+    li {
+      display: inline-block;
+
+      .nav-links__item {
+        text-decoration: none;
+        color: $graphite;
+        padding: 1.25rem;
+        display: inline-block;
+        font-size: 1.3125rem;
+
+        .nav-links__item--blue {
+          color: $nitro-blue;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,11 @@
+/* COLORS */
 * {
   box-sizing: border-box;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 
 body {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -18,31 +19,26 @@ nav {
   align-items: center;
   padding: 0 1.25rem;
 }
-
-.nav__left {
+nav .nav__left {
   display: flex;
   align-items: center;
 }
-
-#beans-logo {
+nav .nav__left #beans-logo {
   min-width: 3.125rem;
   max-width: 7.5rem;
   display: flex;
 }
-
-.co-name-link {
+nav .nav__left .co-name-link {
   text-decoration: none;
 }
-
-#co-name {
+nav .nav__left .co-name-link #co-name {
   text-align: left;
   display: flex;
   font-size: 3.125rem;
   margin: 0;
   color: #393939;
 }
-
-.nav-links {
+nav .nav-links {
   font-size: 1.312rem;
   font-weight: 400;
   text-decoration: none;
@@ -50,22 +46,16 @@ nav {
   display: flex;
   padding-left: 1.25rem;
 }
-
-.nav-links__item {
+nav .nav-links li {
+  display: inline-block;
+}
+nav .nav-links li .nav-links__item {
   text-decoration: none;
   color: #393939;
   padding: 1.25rem;
   display: inline-block;
   font-size: 1.3125rem;
 }
-
-li {
-  display: inline-block;
-}
-
-.nav-links__item--blue {
+nav .nav-links li .nav-links__item .nav-links__item--blue {
   color: #5BACC3;
-}
-
-
-
+}/*# sourceMappingURL=global.css.map */
