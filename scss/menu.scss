@@ -64,39 +64,9 @@ h3 {
     top: -1rem;
 
     .title-box__h1 {
-      color: #FFF;
+      color: $crisp-white;
     }
   }
-
-  // .title-box {
-  //   border: 5px solid $nitro-blue;
-  //   min-width: 17.5rem;
-  //   max-width: 18.75rem;
-  //   min-height: 11.25rem;
-  //   max-height: 12.5rem;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   margin: auto;
-  //   position: relative;
-
-  //   .title-box__inner {
-  //     min-width: 17.5rem;
-  //     max-width: 18.75rem;
-  //     min-height: 11.25rem;
-  //     max-height: 12.5rem;
-  //     background-color: $graphite;
-  //     color: $crisp-white;
-  //     display: flex;
-  //     justify-content: center;
-  //     align-items: center;
-  //     position: absolute;
-  //     left: 0.625rem;
-  //     top: 0.625rem;
-  //     margin: 0;
-  //     z-index: 10;
-//     }
-//   }
 }
 
 /* MENU SECTION NAVIGATION BAR */
