@@ -1,0 +1,153 @@
+/* GENERAL */
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #393939;
+  margin: 0;
+  padding: 0px;
+}
+
+h1, h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  margin: 0px 0px 30px 0px;
+}
+
+h3 {
+  font-size: 2.062rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0px;
+}
+
+/* TOP SECTION */
+
+.top-section {
+  background-image: url("../assets/images/coffee-circle.jpg");
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 575px;
+  max-height: 600px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-box {
+  border: 5px solid #5BACC3;
+  min-width: 280px;
+  max-width: 300px;
+  min-height: 180px;
+  max-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.title-box__inner {
+  min-width: 280px;
+  max-width: 300px;
+  min-height: 180px;
+  max-height: 200px;
+  background-color: #393939;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  margin: 0;
+  z-index: 10;
+}
+
+
+.menu-items {
+  background-color: #393939;
+  display: flex;
+}
+
+.menu-links {
+  min-width: 100%;
+  max-width: 100%;
+  background-color: #393939;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-links__item {
+  text-decoration: none;
+  color: #FFF;
+  margin: 0px 10px;
+  border-left: 4px solid #5BACC3;
+  padding-left: 20px;
+}
+
+
+/* ACTUAL MENU SECTIONS*/
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin: 5px;
+}
+
+.price {
+  color: #5BACC3;
+  font-style: normal;
+  text-align: center;
+}
+
+.hot-drinks-section {
+  background-color: #FFF0ED;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cold-drinks-section {
+  background-color: #F7F7F7;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pastries-section {
+  background-color: #FFF0ED;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc {
+  max-width: 40%;
+  margin: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desc__info {
+  display: flex;
+  max-width: 90%;
+}
+
+

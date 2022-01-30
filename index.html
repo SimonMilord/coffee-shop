@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/global.css" >
+    <link rel="stylesheet" type="text/css" href="./css/landing.css" >
+    <title>Coffee Shop - Home</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="nav__left">
+                <a href="index.html"><img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo"></a>
+                <h3 id="co-name">nitro</h3>
+            </div>
+            <ul class="nav-links">
+                <li><a class="nav-links__item" href="index.html">ABOUT</a></li>
+                <li><a class="nav-links__item" href="./pages/menu.html">MENU</a></li>
+                <li><a class="nav-links__item nav-links__item--blue" href="./pages/menu.html">SHOP NOW</a></li>
+            </ul>
+        </nav>
+        <div class="sub-header">
+            <div class="header-card">
+                <h1 class="header-card__title">Nitro Coffee</h1>
+                <p class="header-card__desc">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+                <button class="header-card__btn"><a class="header-card__link" href="pages/menu.html">SHOP NOW</a></button>
+            </div>
+            <img class="coffee-bag-img" src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+        </div>
+    </header>
+
+    <main>
+        <section class="our-products">
+            <h2 class="products-title">Our Products</h2>
+            <div class="products-container">
+                <div class="product-card">
+                    <img src="./assets/images/coffeebeans.png" alt="coffee beans" class="product-card__img">
+                    <div class="product-card__info">
+                        <div class="product-card__sub-container">
+                            <h3 class="product-card__name">Coffee Beans</h3>
+                            <p class="product-card__desc">Pack of 3</p>
+                        </div>
+                        <p class="product-card__price">$19</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./assets/images/coldbrew.png" alt="cold brew" class="product-card__img" id="coldbrew">
+                    <div class="product-card__info">
+                        <div class="product-card__sub-container">
+                            <h3 class="product-card__name">Cold Brew</h3>
+                            <p class="product-card__desc">1 can</p>
+                        </div>
+                        <p class="product-card__price">$5</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./assets/images/inhousebrew.png" alt="in-house brew" class="product-card__img">
+                    <div class="product-card__info">
+                        <div class="product-card__sub-container">
+                            <h3 class="product-card__name">In-house Brew</h3>
+                            <p class="product-card__desc">1 cup</p>
+                        </div>
+                        <p class="product-card__price">$3</p>
+                    </div>
+                </div>
+            </div>
+            <button class="view-all-btn"><a class="view-all-link" href="pages/menu.html">VIEW ALL</a></button>
+        </section>
+
+        <section class="misc">
+            <div class="misc__card">
+                <h2 class="misc__card__title">We're Different</h2>
+                <p>We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
+                <div class="misc__card__container">
+                    <img src="./assets/images/planting.svg" alt="plants">
+                    <img src="./assets/images/coffee-beans.svg" alt="beans">
+                    <img src="./assets/images/coffee-cup.svg" alt="cup">
+                </div>
+                <button class="learn-more-btn"><a class="learn-more-link" href="#header">LEARN MORE</a></button>
+            </div>
+            <div class="misc__img">
+                <img src="./assets/images/tiltedcan.png" alt="tilted card">
+            </div>
+        </section>
+
+        <section class="section-discount">
+            <p class="discount-msg">Get 20% off your first order with code: <strong>FirstNitro</strong></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-card">
+            <h3 class="footer-card__title">Address</h3>
+            <p class="footer-card__info">503 Broadway Penthouse</p>
+            <p class="footer-card__info">New York</p>
+        </div>
+        <div class="footer-card">
+            <h3 class="footer-card__title">Hours</h3>
+            <p class="footer-card__info"><strong>Monday - Friday:</strong> 9am - 7pm</p>
+            <p class="footer-card__info"><strong>Saturday - Sunday:</strong> 10am - 5pm</p>
+        </div>
+        <div class="footer-card">
+            <h3 class="footer-card__title">Social</h3>
+            <div class="social-icon__container">
+                <a href="https://www.facebook.com/"><img src="./assets/logos/Facebook-Icon.svg" alt="Facebook" class="social-icon footer-card__img"></a>
+                <a href="https://www.yelp.ca/"><img src="./assets/logos/Yelp-Icon.svg" alt="Yelp" class="social-icon footer-card__img"></a>
+                <a href="https://www.instagram.com/"><img src="./assets/logos/Instagram-Icon.svg" alt="Instagram" class="social-icon footer-card__img"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

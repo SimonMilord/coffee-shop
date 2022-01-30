@@ -1,0 +1,285 @@
+/* GENERAL */
+body {
+  color: #393939;
+}
+
+h1, h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: auto;
+}
+
+h3 {
+  font-size: 2.062rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+button {
+  background-color: #5BACC3;
+  color: #FFF;
+  border-style: none;
+  font-size: 1.312rem;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* SUB-HEADER */
+.sub-header {
+  padding: 20px 20px 40px 20px;
+  background-color: #FFF0ED;
+  /*NOT TOO SURE OF THIS BELOW */
+  height: 100vh;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.header-card{
+  display: flex;
+  margin-left: 7rem;
+  max-width: 60%;
+  position: absolute;
+  margin-top: 12%;
+  flex-direction: column;
+}
+
+.header-card__title {
+  max-width: 80%;
+}
+
+.header-card__desc {
+  padding: 10px 0px 20px 0px;
+  max-width: 45%;
+}
+
+.header-card__btn {
+  min-width: 180px;
+  max-width: 2%;
+  padding: 15px 20px;
+}
+
+.header-card__link {
+  color: #FFF;
+}
+
+.coffee-bag-img {
+  display: flex;
+  vertical-align: sub;
+  margin-left: 65%;
+  margin-top: 2%;
+}
+
+/* OUR PRODUCTS SECTION */
+.our-products {
+  background-color: #F7F7F7;
+  padding: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h2.products-title {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+}
+
+.products-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product-card {
+  min-width: 330px;
+  max-width: 350px;
+  min-height: 440px;
+  max-height: 460px;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  padding-top: 1.5rem;
+}
+
+.product-card__img {
+  display: flex;
+  min-height: 240px;
+  max-height: 550px;
+  flex-wrap: wrap;
+}
+.product-card__info {
+  background-color: #FFF0ED;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.product-card__name {
+  text-align: center;
+  display: flex;
+  margin: 0;
+  height: 2.81rem;
+}
+
+.product-card__price {
+  color: #5BACC3;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.product-card__desc {
+  color: #909090;
+  display: flex;
+  margin: 0;
+}
+
+#coldbrew {
+  max-height: 240px;
+}
+
+.view-all-btn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  min-width: 180px;
+  max-width: 80%;
+  padding: 15px 20px;
+  margin-top: 40px;
+}
+.view-all-link {
+  color: #FFF;
+}
+
+/* MISC SECTION */
+.misc {
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 6.25rem 7rem;
+  padding-bottom: 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.misc__card {
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.misc__card__title {
+  display: flex;
+  margin: 0;
+}
+
+.misc__img {
+  min-width: 400px;
+  max-width: 500px;
+  background-image: url(../assets/images/coldbrewbackground.png);
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+.misc__card__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.misc__card__container img {
+  width: 50px;
+}
+
+.learn-more-btn {
+  display: flex;
+  min-width: 180px;
+  max-width: 50%;
+  padding: 15px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.learn-more-link {
+  color: #FFF;
+}
+
+/* DISCOUNT SECTION */
+.section-discount {
+  margin: 12rem 0rem;
+  display: flex;
+}
+
+.discount-msg {
+  font-size: 2.812rem;
+  font-weight: 400;
+  background-color: #393939;
+  color: #FFF;
+  text-align: center;
+  margin: auto;
+  padding: 40px 70px;
+  display: flex;
+}
+
+/* FOOTER */
+footer {
+  background-color: #FFF0ED;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icon {
+  min-width: 50px;
+  max-width: 120px;
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  align-items: flex-start;
+}
+
+.footer-card__title {
+  margin: 20px 0px;
+}
+
+.footer-card__info {
+  margin: 0px;
+  text-align: left;
+}
+
+.footer-card__img {
+  max-height: 2.875rem;
+}
