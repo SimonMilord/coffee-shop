@@ -30,61 +30,63 @@ p {
   font-weight: 400;
 }
 
-button {
+.button {
   background-color: #5BACC3;
   color: #FFF;
   border-style: none;
   font-size: 1.312rem;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  min-width: 180px;
+  max-width: 2%;
+  padding: 15px 20px;
 }
 
 strong {
   font-weight: 700;
 }
 
-/* SUB-HEADER */
-.sub-header {
-  padding: 20px 20px 40px 20px;
+/* HERO SECTION */
+.hero {
+  padding: 3rem;
   background-color: #FFF0ED;
   /*NOT TOO SURE OF THIS BELOW */
   height: 100vh;
-  /* display: flex;
-  flex-wrap: wrap; */
+  display: flex;
+  justify-content: space-around;
 }
 
-.header-card{
+.hero-card{
   display: flex;
-  margin-left: 7rem;
-  max-width: 60%;
-  position: absolute;
-  margin-top: 12%;
+  /* margin-left: 5rem; */
+  max-width: 50%;
+  margin-top: 10rem;
   flex-direction: column;
 }
 
-.header-card__title {
+.hero-card__title {
   max-width: 80%;
 }
 
-.header-card__desc {
+.hero-card__desc {
   padding: 10px 0px 20px 0px;
-  max-width: 45%;
+  max-width: 60%;
 }
 
-.header-card__btn {
+.hero-card__btn {
   min-width: 180px;
   max-width: 2%;
   padding: 15px 20px;
 }
 
-.header-card__link {
-  color: #FFF;
+.hero-img {
+  margin-right: 4rem;
 }
 
 .coffee-bag-img {
-  display: flex;
-  vertical-align: sub;
-  margin-left: 65%;
-  margin-top: 2%;
+
+
 }
 
 /* OUR PRODUCTS SECTION */
@@ -94,6 +96,7 @@ strong {
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 h2.products-title {
@@ -105,6 +108,7 @@ h2.products-title {
 .products-container {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
 .product-card {
@@ -192,7 +196,7 @@ h2.products-title {
 }
 
 .misc__card {
-  width: 34%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -216,6 +220,7 @@ h2.products-title {
 .misc__card__container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .misc__card__container img {

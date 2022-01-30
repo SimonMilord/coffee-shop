@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /* border: 1px dashed black; */
+  border: 1px dashed black;
 }
 
 body {
@@ -8,9 +8,6 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
 }
 
 /* NAV BAR */
@@ -31,6 +28,10 @@ nav {
   min-width: 50px;
   max-width: 120px;
   display: flex;
+}
+
+.co-name-link {
+  text-decoration: none;
 }
 
 #co-name {

@@ -12,8 +12,8 @@
     <header id="header">
         <nav>
             <div class="nav__left">
-                <a href="index.html"><img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo"></a>
-                <h3 id="co-name">nitro</h3>
+                <a href="../index.html"><img src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="beans-logo" id="beans-logo"></a>
+                <a class="co-name-link" href="../index.html"><h3 id="co-name">nitro</h3></a>
             </div>
             <ul class="nav-links">
                 <li><a class="nav-links__item" href="index.html">ABOUT</a></li>
@@ -21,17 +21,21 @@
                 <li><a class="nav-links__item nav-links__item--blue" href="./pages/menu.html">SHOP NOW</a></li>
             </ul>
         </nav>
-        <div class="sub-header">
-            <div class="header-card">
-                <h1 class="header-card__title">Nitro Coffee</h1>
-                <p class="header-card__desc">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
-                <button class="header-card__btn"><a class="header-card__link" href="pages/menu.html">SHOP NOW</a></button>
-            </div>
-            <img class="coffee-bag-img" src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
-        </div>
     </header>
 
     <main>
+        <div class="hero">
+            <div class="hero-card">
+                <h1 class="hero-card__title">Nitro Coffee</h1>
+                <p class="hero-card__desc">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+                <a class="hero-card__btn button" href="pages/menu.html">SHOP NOW</a>
+            </div>
+
+            <div class="hero-img">
+                <img class="coffee-bag-img" src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+            </div>
+        </div>
+
         <section class="our-products">
             <h2 class="products-title">Our Products</h2>
             <div class="products-container">
@@ -66,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <button class="view-all-btn"><a class="view-all-link" href="pages/menu.html">VIEW ALL</a></button>
+            <a class="view-all-link button" href="pages/menu.html">VIEW ALL</a>
         </section>
 
         <section class="misc">
@@ -78,7 +82,7 @@
                     <img src="./assets/images/coffee-beans.svg" alt="beans">
                     <img src="./assets/images/coffee-cup.svg" alt="cup">
                 </div>
-                <button class="learn-more-btn"><a class="learn-more-link" href="#header">LEARN MORE</a></button>
+                <a class="learn-more-link button" href="#header">LEARN MORE</a>
             </div>
             <div class="misc__img">
                 <img src="./assets/images/tiltedcan.png" alt="tilted card">
@@ -86,7 +90,7 @@
         </section>
 
         <section class="section-discount">
-            <p class="discount-msg">Get 20% off your first order with code: <strong>FirstNitro</strong></p>
+            <p class="discount-msg">Get 20% off your first order with code:<strong>FirstNitro</strong></p>
         </section>
     </main>
 
