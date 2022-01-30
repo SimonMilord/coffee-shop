@@ -1,4 +1,65 @@
 /* COLORS */
+* {
+  box-sizing: border-box;
+  /* border: 1px dashed black; */
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAV BAR */
+nav {
+  background-color: #FFF0ED;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.25rem;
+}
+nav .nav__left {
+  display: flex;
+  align-items: center;
+}
+nav .nav__left #beans-logo {
+  min-width: 3.125rem;
+  max-width: 7.5rem;
+  display: flex;
+}
+nav .nav__left .co-name-link {
+  text-decoration: none;
+}
+nav .nav__left .co-name-link #co-name {
+  text-align: left;
+  display: flex;
+  font-size: 3.125rem;
+  margin: 0;
+  color: #393939;
+}
+nav .nav-links {
+  font-size: 1.312rem;
+  font-weight: 400;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  padding-left: 1.25rem;
+}
+nav .nav-links li {
+  display: inline-block;
+}
+nav .nav-links li .nav-links__item {
+  text-decoration: none;
+  color: #393939;
+  padding: 1.25rem;
+  display: inline-block;
+  font-size: 1.3125rem;
+}
+nav .nav-links li .nav-links__item .nav-links__item--blue {
+  color: #5BACC3;
+}
+
 /* GENERAL */
 html {
   margin: 0;
@@ -68,6 +129,7 @@ h3 {
   margin: 0;
   z-index: 10;
 }
+
 /* MENU SECTION NAVIGATION BAR */
 .menu-items {
   background-color: #393939;
