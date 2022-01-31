@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  border: 1px dashed black;
+  // border: 1px dashed black;
 }
 
 body {
@@ -60,7 +60,7 @@ nav {
         display: inline-block;
         font-size: 1.3125rem;
 
-        .nav-links__item--blue {
+        &.nav-links__item--blue {
           color: $nitro-blue;
         }
       }

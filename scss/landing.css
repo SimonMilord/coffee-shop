@@ -1,7 +1,6 @@
 /* COLORS */
 * {
   box-sizing: border-box;
-  border: 1px dashed black;
 }
 
 body {
@@ -56,7 +55,7 @@ nav .nav-links li .nav-links__item {
   display: inline-block;
   font-size: 1.3125rem;
 }
-nav .nav-links li .nav-links__item .nav-links__item--blue {
+nav .nav-links li .nav-links__item.nav-links__item--blue {
   color: #5BACC3;
 }
 
@@ -92,23 +91,6 @@ p {
   font-weight: 400;
 }
 
-.btn-container {
-  position: relative;
-  background-color: #5BACC3;
-  height: 50px;
-  width: 100px;
-}
-
-.btn-inner {
-  position: absolute;
-}
-
-.button {
-  color: #FFF;
-  font-size: 1.312rem;
-  font-weight: 400;
-}
-
 strong {
   font-weight: 700;
 }
@@ -134,13 +116,36 @@ strong {
   padding: 0.625rem 0 1.25rem 0;
   max-width: 60%;
 }
-.hero .hero-card .hero-card__btn {
-  min-width: 11.25rem;
-  max-width: 2%;
-  padding: 0.94rem 1.25rem;
-}
-.hero .hero-img {
+.hero .hero-card .hero-img {
   margin-right: 4rem;
+}
+
+/* BUTTON COMPONENT */
+.btn-container {
+  min-width: 180px;
+  max-width: 20%;
+  height: 2rem;
+  padding: 25px;
+  position: relative;
+  background-color: #5BACC3;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 2px solid #393939;
+  top: -5px;
+  left: -5px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: #FFF;
+  text-decoration: none;
 }
 
 /* OUR PRODUCTS SECTION */
@@ -305,9 +310,9 @@ footer .outer {
   position: relative;
 }
 footer .outer .bg-icon {
-  min-width: 60px;
-  max-width: 120px;
-  width: 120px;
+  min-width: 3.75rem;
+  max-width: 7.5rem;
+  width: 7.5rem;
 }
 footer .outer .bg-icon .bg-icon__img {
   position: absolute;
@@ -316,17 +321,17 @@ footer .outer .bg-icon .bg-icon__img {
   height: 100%;
 }
 footer .outer .bg-icon .bg-icon__img--right {
-  top: 40px;
-  left: 40px;
+  top: 2.5rem;
+  left: 2.5rem;
 }
 footer .outer .bg-icon .bg-icon__img--left {
-  top: -20px;
-  left: -40px;
+  top: -2.5rem;
+  left: -2.5rem;
 }
 footer .footer-card {
   display: flex;
   flex-direction: column;
-  margin: 3rem;
+  margin: 3.5rem;
   align-items: flex-start;
 }
 footer .footer-card .footer-card__title {

@@ -32,33 +32,12 @@ p {
   font-size: 1.125rem;
   font-weight: 400;
 }
-.btn-container {
-  position: relative;
-  background-color: $nitro-blue;
-  // min-width: 11.25rem;
-  // max-width: 25%;
-  height: 50px;
-  width: 100px;
-}
 
-.btn-inner {
-  position: absolute;
-  // width: 100%;
-  // height: 100%;
-  // border: 2px solid black;
-  // z-index: 10;
-  // top: -5px;
-  // left: -5px;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-}
-
-.button {
-  color: $crisp-white;
-  font-size: 1.312rem;
-  font-weight: 400;
-}
+// .button {
+//   color: $crisp-white;
+//   font-size: 1.312rem;
+//   font-weight: 400;
+// }
 
 strong {
   font-weight: 700;
@@ -87,16 +66,38 @@ strong {
       max-width: 60%;
     }
 
-    .hero-card__btn {
-      min-width: 11.25rem;
-      max-width: 2%;
-      padding: 0.94rem 1.25rem;
+    .hero-img {
+      margin-right: 4rem;
     }
   }
-  .hero-img {
-    margin-right: 4rem;
-  }
 }
+/* BUTTON COMPONENT */
+.btn-container {
+    min-width: 180px;
+    max-width: 20%;
+    height: 2rem;
+    padding: 25px;
+    position: relative;
+    background-color: $nitro-blue;
+  }
+
+  .inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 2px solid $graphite;
+    top: -5px;
+    left: -5px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link {
+    color: #FFF;
+    text-decoration: none;
+  }
 
 /* OUR PRODUCTS SECTION */
 .our-products {
@@ -280,10 +281,11 @@ footer {
     overflow: hidden;
     position: relative;
 
+
     .bg-icon {
-      min-width: 60px;
-      max-width: 120px;
-      width: 120px;
+      min-width: 3.75rem;
+      max-width: 7.5rem;
+      width: 7.5rem;
 
       .bg-icon__img {
         position: absolute;
@@ -292,12 +294,12 @@ footer {
         height: 100%;
       }
       .bg-icon__img--right {
-        top: 40px;
-        left: 40px;
+        top: 2.5rem;
+        left: 2.5rem;
       }
       .bg-icon__img--left {
-        top: -20px;
-        left: -40px;
+        top: -2.5rem;
+        left: -2.5rem;
       }
     }
   }
@@ -306,7 +308,7 @@ footer {
   .footer-card {
     display: flex;
     flex-direction: column;
-    margin: 3rem;
+    margin: 3.5rem;
     align-items: flex-start;
 
     .footer-card__title {

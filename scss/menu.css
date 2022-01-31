@@ -1,7 +1,6 @@
 /* COLORS */
 * {
   box-sizing: border-box;
-  border: 1px dashed black;
 }
 
 body {
@@ -56,7 +55,7 @@ nav .nav-links li .nav-links__item {
   display: inline-block;
   font-size: 1.3125rem;
 }
-nav .nav-links li .nav-links__item .nav-links__item--blue {
+nav .nav-links li .nav-links__item.nav-links__item--blue {
   color: #5BACC3;
 }
 
