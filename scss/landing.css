@@ -142,6 +142,11 @@ strong {
   justify-content: center;
   align-items: center;
 }
+.inner.inner:active {
+  top: 0px;
+  left: 0px;
+  transition: 0.1s;
+}
 
 .link {
   color: #FFF;

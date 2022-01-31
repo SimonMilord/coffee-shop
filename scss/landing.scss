@@ -92,6 +92,12 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &.inner:active {
+      top: 0px;
+      left: 0px;
+      transition: 0.1s;
+    }
   }
 
   .link {
@@ -248,7 +254,7 @@ strong {
       align-items: center;
 
       .can-img {
-        // display: inline-block;
+
       }
     }
   }
